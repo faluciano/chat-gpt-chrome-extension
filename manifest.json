@@ -3,6 +3,9 @@
     "name": "ChatGPT context menu",
     "description": "Ask ChatGPT about selected text",
     "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
     "content_scripts": [
         {
             "matches": ["https://chat.openai.com/*"],
